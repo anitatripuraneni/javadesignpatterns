@@ -1,0 +1,10 @@
+package com.singleton.lazy;
+
+public class DoubleCheckLockingPrinciple {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

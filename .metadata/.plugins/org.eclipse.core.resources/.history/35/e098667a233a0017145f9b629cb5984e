@@ -1,0 +1,14 @@
+package com.prototype;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Employees {
+
+	private List<String> empList;
+
+	private Employees() {
+		empList = new ArrayList<>();
+	}
+
+}

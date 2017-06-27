@@ -1,0 +1,44 @@
+package com.adaptor;
+
+public class AdaptorPatternTest {
+
+	public static void main(String[] args) {
+		testClassAdaptor();
+		testObjectAdaptor();
+
+	}
+
+	private static void testObjectAdaptor() {
+	SocketAdaptor adaptor = new SocketObjectAdaptorImpl();
+	Volt v3 = getvolt(adaptor, 3);
+	Volt v12 = getvolt(adaptor, 12);
+	Volt v120 = getvolt(adaptor, 120);
+	
+	System.out.println("v3 volts using Object
+			Adapter="+v3.getVolts());
+			System.out.println("v12 volts using Object
+			Adapter="+v12.getVolts());
+			System.out.println("v120 volts using Object
+			Adapter="+v120.getVolts());
+	
+		
+	}
+
+	private static void testClassAdaptor() {
+		// TODO Auto-generated method stub
+
+	}
+
+	private static Volt getvolt(SocketAdaptor adaptor, int i) {
+		switch (i) {
+		case 3:
+			return adaptor.get3Volt();
+		case 12:
+			return adaptor.get12Volt();
+		case 120:
+			return adaptor.get120Volt();
+		default:
+			return adaptor.get120Volt();
+		}
+	}
+}

@@ -1,0 +1,5 @@
+package com.singleton.lazy;
+
+public class InnerStaticClassHelper {
+
+}

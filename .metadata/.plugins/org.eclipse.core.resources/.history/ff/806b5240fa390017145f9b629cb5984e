@@ -1,0 +1,20 @@
+package com.singleton.eager;
+
+public class EagerIntilization {
+	
+	private static final EagerIntilization instance = new EagerIntilization();
+	
+	private EagerIntilization(){
+		
+	}
+	
+	public static EagerIntilization getInstance(){
+		return instance;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

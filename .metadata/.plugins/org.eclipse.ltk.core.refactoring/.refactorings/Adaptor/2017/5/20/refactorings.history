@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.adaptor.Volts&apos; to &apos;Volt&apos;&#x0D;&#x0A;- Original project: &apos;Adaptor&apos;&#x0D;&#x0A;- Original element: &apos;com.adaptor.Volts&apos;&#x0D;&#x0A;- Renamed element: &apos;com.adaptor.Volt&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Volts&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.adaptor{Volts.java[Volts" matchStrategy="1" name="Volt" qualified="false" references="true" similarDeclarations="false" stamp="1495086811493" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,16 @@
+package com.singleton.lazy;
+
+public class InnerStaticClassHelper {
+	
+	private InnerStaticClassHelper(){
+		
+	}
+private static class InnerSingletonHelper{
+	
+	private static final InnerStaticClassHelper instance = new InnerStaticClassHelper();
+}
+
+public static InnerStaticClassHelper getInstance(){
+	return InnerSingletonHelper.instance;
+}
+}

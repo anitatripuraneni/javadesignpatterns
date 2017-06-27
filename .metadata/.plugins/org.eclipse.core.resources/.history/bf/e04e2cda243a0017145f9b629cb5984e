@@ -1,0 +1,14 @@
+package com.prototype;
+
+public class PrototypeTest {
+
+	public static void main(String[] args) {
+		Employees emp = new Employees();
+		emp.loadData();
+
+		Employees emp1 = (Employees) emp.clone();
+		Employees emp2 = (Employees) emp.clone();
+
+	}
+
+}

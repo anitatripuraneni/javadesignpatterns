@@ -1,0 +1,15 @@
+package com.builder;
+
+public static class ComputerBuilder{
+	// required attributes
+
+		private String ram;
+		private String hdd;
+
+		// optional attributes
+
+		private boolean isGraphicCardEnabled;
+		private boolean isBluetoothEnabled;
+
+	
+}

@@ -1,0 +1,8 @@
+package com.abstractfactory;
+
+public class Snippet {
+	public static void main(String[] args) {
+		abstractFactory
+	}
+}
+

@@ -1,0 +1,21 @@
+package com.proxy;
+
+public class CommandExecutorProxy implements CommandExecutor {
+	
+	private boolean isAdmin;
+	private CommandExecutor commandExecutor;
+	
+	public CommandExecutorProxy(String user,String pwd){
+		if("Anita".equals(user) && "abcd".equals(pwd)){
+			isAdmin = true;
+			commandExecutor = new CommandExecutorImpl();
+		}
+	}
+
+	@Override
+	public void runCommand(String cmd) throws Exception {
+		// TODO Auto-generated method stub
+
+	}
+
+}

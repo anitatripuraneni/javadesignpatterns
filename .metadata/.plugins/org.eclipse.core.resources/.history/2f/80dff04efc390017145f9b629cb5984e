@@ -1,0 +1,22 @@
+package com.singleton.lazy;
+
+public class LazyIntilization {
+	
+	private static LazyIntilization instance;
+	
+	private LazyIntilization(){
+		
+	}
+	public static LazyIntilization getInstance(){
+		if(instance == null){
+			instance= new LazyIntilization();
+		}
+		return instance;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

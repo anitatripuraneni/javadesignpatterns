@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.builder.ComputerBuilder.java&apos; to &apos;BuilderTest.java&apos;&#x0D;&#x0A;- Original project: &apos;Builder&apos;&#x0D;&#x0A;- Original element: &apos;com.builder.ComputerBuilder.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.builder.BuilderTest.java&apos;" description="Rename compilation unit &apos;ComputerBuilder.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.builder{ComputerBuilder.java" name="BuilderTest.java" references="false" stamp="1494930352896" version="1.0"/>
+</session>

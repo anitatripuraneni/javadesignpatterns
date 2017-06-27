@@ -1,0 +1,54 @@
+package com.builder;
+
+public class Computer {
+	// required attributes
+
+	private String ram;
+	private String hdd;
+
+	// optional attributes
+
+	private boolean isGraphicCardEnabled;
+	private boolean isBluetoothEnabled;
+
+	public String getRam() {
+		return ram;
+	}
+
+	public void setRam(String ram) {
+		this.ram = ram;
+	}
+
+	public String getHdd() {
+		return hdd;
+	}
+
+	public void setHdd(String hdd) {
+		this.hdd = hdd;
+	}
+
+	public boolean isGraphicCardEnabled() {
+		return isGraphicCardEnabled;
+	}
+
+	public void setGraphicCardEnabled(boolean isGraphicCardEnabled) {
+		this.isGraphicCardEnabled = isGraphicCardEnabled;
+	}
+
+	public boolean isBluetoothEnabled() {
+		return isBluetoothEnabled;
+	}
+
+	public void setBluetoothEnabled(boolean isBluetoothEnabled) {
+		this.isBluetoothEnabled = isBluetoothEnabled;
+	}
+
+	public Computer(ComputerBuilder builder) {
+
+		this.ram = ram;
+		this.hdd = hdd;
+		this.isGraphicCardEnabled = isGraphicCardEnabled;
+		this.isBluetoothEnabled = isBluetoothEnabled;
+	}
+
+}
